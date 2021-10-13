@@ -134,6 +134,12 @@ body {
 #content.active {
   display: none;
 }
+.content {
+  display: none;
+}
+.content.active {
+  display: block;
+}
 
 h2 {
   margin: 80px;
