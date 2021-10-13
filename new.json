@@ -1,0 +1,23 @@
+[
+
+    {
+        "id" : 1,
+        "username" : "ababiooo",
+        "country": "Ghana",
+        "continent": "Africa"
+    },
+    {
+        "id": 2,
+        "username": "kofigo",
+        "country" : "Australia",
+        "continent" : "Autralia"
+    },
+    {
+        "id": 3,
+        "username": "futomacaan",
+        "country": "America",
+        "continent": "North America"
+    }
+
+]
+
