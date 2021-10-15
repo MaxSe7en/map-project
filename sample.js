@@ -160,7 +160,7 @@ const tileUrl = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
 const tiles = L.tileLayer(tileUrl, { attribution });
 tiles.addTo(map);
 //creates the marker
-const marker = L.marker([3.9333, -11.5765]);
+const marker = L.marker([[53.9333, -116.5765]);
 marker.addTo(map);
 //creates a new marker on click
 map.on("click", (e) => {
