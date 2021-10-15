@@ -253,6 +253,7 @@ a {
   align-items: center;
   margin-right: 100px;
   border-radius: 10px;
+  position: relative;
   box-shadow: 0px 10px 20px 2px #1f201a;
 }
 .nest.active {
@@ -264,8 +265,8 @@ a {
   background-color: rebeccapurple;
   border: none;
   position: absolute;
-  left: 40px;
-  top: 100px;
+  left: 10px;
+  top: 10px;
   cursor: pointer;
   font-size: larger;
   font-weight: 700;
@@ -299,6 +300,7 @@ a {
   display: flex;
 } */
 .glass {
+  position: relative;
   background-color: var(--color7);
   padding: 0px 20px;
   height: 70vh;
@@ -417,371 +419,7 @@ footer {
 
 /*MOBILE DEVICES*/
 
-/* @media (max-width: 480px) {
-  * {
-    font-size: 1rem;
-  }
-  body {
-  }
-  .circle {
-    width: 20px;
-    height: 20px;
-  }
-  .irr {
-    width: 20px;
-    height: 20px;
-  }
-  .straight {
-    width: 20px;
-    height: 20px;
-  }
-} */
-
-/* @media (max-width: 768px) {
-  * {
-    font-size: 0.8rem;
-  }
-  body {
-    height: 50vh;
-  }
-  .circle {
-    width: 120px;
-    height: 120px;
-  }
-  .irr {
-    width: 120px;
-    height: 120px;
-    bottom: 100px;
-  }
-  .straight {
-    width: 120px;
-    height: 120px;
-
-  }
-
-  .Wrapper {
-    top: 10px;
-    border-radius: 10px;
-    margin: 50px;
-    height: 80vh;
-    padding: 30px 0;
-  }
-
-  h2 {
-    margin: 0px;
-    padding: 20px;
-    font-size: medium;
-  }
-  .para {
-    margin: 0px;
-    padding: 20px;
-    width: 50vw;
-    font-size: small;
-  }
-  #add-map {
-    height: 100vh;
-  }
-  nav {
-    margin-top: -30px;
-    height: 80px;
-  }
-
-  ul {
-    width: 100vw;
-  }
-
-  a {
-    font-size: x-large;
-    font-weight: bolder;
-    padding: 10px;
-  }
-
-  #sign-in {
-    font-size: large;
-    padding-top: 15px;
-    letter-spacing: 3px;
-    margin-right: 30px;
-  }
-  .sign {
-    margin-left: 10px;
-  }
-
-  #sign-up {
-    font-size: large;
-    border-radius: 30px;
-    padding: 0px 30px;
-    margin-right: 30px;
-    transform: scale(1);
-  }
-  .nest {
-    height: 70vh;
-    margin-top: -50px;
-    width: 60vw;
-    padding: 0px;
-    margin-right: 108px;
-    border-radius: 10px;
-  }
-  .nest input {
-    font-weight: normal;
-    margin-top: 0px;
-    width: 200px;
-    height: 25px;
-    padding-left: 10px;
-    border-radius: 5px;
-  }
-  .nest h5,
-  h3 {
-    margin-bottom: 5px;
-  }
-
-  .nest h3 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  .nest p {
-    margin-bottom: 15px;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
-    font-weight: 200;
-  }
-  #close {
-    padding: 10px;
-    left: 40px;
-    top: 100px;
-    font-size: larger;
-    font-weight: 700;
-    border-radius: 50%;
-  }
-
-  #container {
-    height: 60vh;
-    width: 100vw;
-  }
-
-  .glass {
-    padding: 0px 20px;
-    height: 50vh;
-    width: 60vw;
-    margin-right: 100px;
-    border-radius: 10px;
-  }
-
-  h5,
-  h6,
-  h3 {
-    margin-bottom: 50px;
-  }
-
-  h3 {
-    margin-top: 40px;
-    margin-bottom: 30px;
-  }
-  .play {
-    width: 100%;
-    margin-bottom: 40px;
-  }
-
-  p {
-    margin-bottom: 20px;
-  }
-
-  label {
-    padding-bottom: 4px;
-    margin-bottom: 15px;
-  }
-
-  input {
-    margin-top: 16px;
-    width: 200px;
-    height: 25px;
-    padding-left: 10px;
-    border-radius: 5px;
-  }
-
-  span {
-    margin-left: 0px;
-  }
-  .submit {
-    margin-top: 40px;
-  }
-
-  .submit2 {
-    margin-top: 40px;
-  }
-  .pass {
-    margin-left: 30px;
-  }
-
-  footer {
-    height: 100px;
-    margin-top: 30px;
-    width: 1000px;
-  }
-  .footer {
-    border-radius: 5px;
-    padding: 5px 20px;
-    margin-left: 20px;
-    font-size: medium;
-  }
-  .foot {
-    margin: 30px;
-  }
-} */
-/* @media (max-width: 768px) {
-  * {
-    font-size: medium;
-  }
-  body {
-    min-height: 100%;
-  }
-  .circle {
-    width: 250px;
-    height: 250px;
-  }
-  .irr {
-    width: 250px;
-    height: 250px;
-    position: absolute;
-    bottom: 5px;
-    left: 5px;
-  }
-  .straight {
-    width: 250px;
-    height: 250px;
-  }
-
-  .Wrapper {
-    top: 10px;
-    border-radius: 10px;
-    margin: 50px;
-    min-height: 100vh;
-    padding: 30px 0;
-  }
-
-  h2 {
-    margin: 40px;
-    padding: 20px;
-    font-size: x-large;
-  }
-  .para {
-    margin: 40px;
-    padding: 20px;
-    width: 40vw;
-    font-size: large;
-  }
-  #add-map {
-    height: 100vh;
-  }
-  nav {
-    margin-top: -30px;
-    height: 80px;
-  }
-
-  ul {
-    width: 100%;
-  }
-
-  a {
-    font-size: large;
-    font-weight: bolder;
-    padding: 5px;
-  }
-
-  .sign {
-    margin-left: 10px;
-  }
-
-  #sign-up {
-    font-size: medium;
-    border-radius: 30px;
-    padding: 0px 30px;
-    margin-right: 30px;
-  }
-  .nest {
-    width: 60%;
-    padding: 20px;
-    margin-right: 100px;
-    border-radius: 10px;
-  }
-
-  #close {
-    font-size: medium;
-    font-weight: 400;
-    border-radius: 50%;
-  }
-
-  #container {
-    min-height: 100%;
-    width: auto;
-  }
-
-  .glass {
-    padding: 0px 20px;
-    height: 50vh;
-    width: 60vw;
-    margin-right: 50px;
-    border-radius: 10px;
-  }
-
-  h5,
-  h6,
-  h3 {
-    margin-bottom: 30px;
-  }
-
-  h3 {
-    margin-top: 40px;
-    margin-bottom: 30px;
-  }
-  .play {
-    width: 100%;
-    margin-bottom: 40px;
-  }
-
-  p {
-    margin-bottom: 20px;
-  }
-
-  label {
-    padding-bottom: 4px;
-    margin-bottom: 15px;
-  }
-
-  input {
-    margin-top: 16px;
-    width: 150px;
-    height: 45px;
-    padding-left: 10px;
-    border-radius: 5px;
-  }
-  .submit {
-    margin-top: 40px;
-  }
-
-  .submit2 {
-    margin-top: 40px;
-  }
-  .pass {
-    margin-left: 30px;
-  }
-
-  footer {
-    height: 100px;
-    margin-top: 30px;
-    width: 1000px;
-  }
-  .footer {
-    border-radius: 5px;
-    padding: 5px 20px;
-    margin-left: 20px;
-    font-size: small;
-  }
-  .foot {
-    margin: 30px;
-  }
-} */
-
-@media (max-width: 320px) {
+@media /*320 and 240 screen 480 screen*/(max-width: 368px) {
   * {
     font-size: xx-small;
     letter-spacing: normal;
@@ -833,7 +471,6 @@ footer {
   }
 
   ul {
-    border: solid;
     width: 40%;
     display: flex;
     justify-content: space-around;
@@ -844,247 +481,27 @@ footer {
   }
 
   #sign-in {
-    border: solid;
     padding-top: 10px;
-    width: 100px;
-    display: inline;
-    font-size: xx-small;
-  }
-  .sign {
-    margin-left: 10px;
-  }
-
-  #sign-up {
-    text-align: center;
-    width: 60px;
-    height: 15px;
-    font-size: 6px;
-    border-radius: 15px;
-    padding: 0px 15px;
-    margin-right: 40px;
-  }
-
-  #close {
-    text-align: center;
-    font-size: xx-small;
-    padding: 0;
-    font-weight: 400;
-    border-radius: 50%;
-    width: 15px;
-    height: 15px;
-  }
-
-  .nest /* sign up display*/ {
-    width: 90%;
-    padding: 20px;
-    margin: 50px;
-    border-radius: 10px;
-  }
-
-  /* Sign up screen*/
-  .nest #form {
-    padding: 0 20px;
-  }
-  .nest #form input {
-    margin-top: 16px;
-    width: 150px;
-    height: 25px;
-    font-size: xx-small;
-    padding-left: 10px;
-    border-radius: 5px;
-  }
-  .nest #form p {
-    margin-bottom: 10px;
-  }
-  .nest #form p label {
-    padding-bottom: 4px;
-    margin-bottom: 10px;
-  }
-
-  .nest h5 {
-    margin-bottom: 10px;
-    display: none;
-  }
-  .nest .play {
-    font-size: 8px;
-    width: 200px;
-    padding: 0%;
-    margin-right: 0px;
-    margin-left: -50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  .nest .play .sign {
-    color: #41dfff;
-    font-size: 8px;
-  }
-
-  .nest #form .submit {
-    margin-top: 10px;
-    cursor: pointer;
-  }
-  .nest #form .submit:hover {
-    background: #cc1061;
-  }
-  #container {
-    min-height: 100%;
-    width: auto;
-  }
-
-  .glass {
-    padding: 0px 20px;
-    height: 100%;
-    width: 100%;
-    margin-right: 0px;
-    position: relative;
-  }
-
-  .glass #close {
-    text-align: center;
-    font-size: xx-small;
-    padding: 0;
-    font-weight: 400;
-    border-radius: 50%;
-    width: 15px;
-    height: 15px;
-    position: absolute;
-    left: 10px;
-    top: 10px;
-  }
-  .glass #form2 {
-    height: 100%;
-    margin-top: 10px;
-  }
-  .glass #form2 input {
-    margin-top: 16px;
-    width: 150px;
-    height: 25px;
-    font-size: xx-small;
-    padding-left: 10px;
-    border-radius: 5px;
-  }
-
-  .glass h3 {
-    margin-top: 10px;
-    margin-bottom: 30px;
-  }
-
-  label {
-    padding-bottom: 4px;
-    margin-bottom: 15px;
-  }
-
-  .pass {
-    margin-left: 10px;
-  }
-
-  footer {
-    height: 80px;
-    margin-top: 0px;
-    width: 100%;
-  }
-  .footer {
-    font-size: 5px;
-    border-radius: 5px;
-    padding: 5px 10px;
-    margin-left: 0px;
-    display: inline-block;
-  }
-  .foot {
-    margin-left: 0px;
-    width: 170px;
-    font-size: 8px;
-  }
-}
-
-@media (max-width: 768px) {
-  * {
-    font-size: xx-small;
-    letter-spacing: normal;
-  }
-  body {
-    height: 80%;
-  }
-  .circle {
-    width: 150px;
-    height: 150px;
-  }
-  .irr {
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    bottom: 5px;
-    left: 5px;
-  }
-  .straight {
-    width: 150px;
-    height: 150px;
-  }
-
-  .Wrapper {
-    top: 10px;
-    border-radius: 10px;
-    margin: 20px;
-    height: 50vh;
-    padding: 30px 0;
-  }
-
-  h2 {
-    margin: 20%;
-    padding: 5px;
-    font-size: x-small;
-  }
-  .para {
-    margin: 20%;
-    padding: 5px;
-    width: 40vw;
-    font-size: 8px;
-  }
-  #add-map {
-    height: 100vh;
-  }
-  nav {
-    margin-top: -30px;
-    height: 40px;
-  }
-
-  ul {
-    width: 40%;
-    display: flex;
-    justify-content: space-around;
-  }
-
-  ul li #before {
-    margin-left: 15px;
-    font-size: small;
-    font-weight: bolder;
-  }
-  #sign-in {
-    padding: 10px 0px 0px 0px;
     width: 70px;
-    letter-spacing: normal;
-    margin-left: 30px;
-    margin-right: -2px;
     display: inline;
-    font-size: xx-small;
+    font-size: x-small;
+    letter-spacing: normal;
   }
   .sign {
     margin-left: 10px;
   }
-  nav ul .sign-up {
-    /* border: solid; */
-    margin-bottom: 0px;
-    padding-top: 8px;
-    text-align: center;
-  }
+
   #sign-up {
-    /* border: solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    width: 80px;
+    width: 70px;
     height: 15px;
-    font-size: 6px;
+    font-size: 8px;
     border-radius: 15px;
-    padding: 0px 15px;
+    padding: 12px;
+    margin-top: 4px;
     margin-right: 10px;
   }
 
@@ -1098,10 +515,17 @@ footer {
     height: 15px;
   }
 
+  .nest #close {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+
   .nest /* sign up display*/ {
     width: 90%;
     padding: 20px;
     margin: 50px;
+    margin-top: 10px;
     border-radius: 10px;
     position: relative;
   }
@@ -1139,27 +563,13 @@ footer {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-
-  .nest #close {
-    text-align: center;
-    font-size: xx-small;
-    padding: 0;
-    font-weight: 400;
-    border-radius: 50%;
-    width: 15px;
-    height: 15px;
-    position: absolute;
-    left: 10px;
-    top: 10px;
-  }
-
   .nest .play .sign {
     color: #41dfff;
     font-size: 8px;
   }
 
   .nest #form .submit {
-    margin-top: 10px;
+    margin-top: 30px;
     cursor: pointer;
   }
   .nest #form .submit:hover {
@@ -1173,7 +583,7 @@ footer {
   .glass {
     padding: 0px 20px;
     height: 100%;
-    width: 100%;
+    width: 80%;
     margin-right: 0px;
     position: relative;
   }
@@ -1220,17 +630,491 @@ footer {
   footer {
     height: 80px;
     margin-top: 0px;
-    width: 100%;
+    margin-bottom: 10px;
+    padding: 0px 20px;
+    width: 200%;
   }
   .footer {
-    font-size: 8px;
+    font-size: 5px;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 5px;
+    margin-top: 5px;
+    width: 40px;
+    text-align: center;
+    margin-left: 8px;
     display: inline-block;
   }
+
   .foot {
-    margin-left: 10px;
-    width: 270px;
+    /* border: solid; */
+    text-align: center;
+    margin-left: 0px;
+    padding-left: 20px;
     font-size: 8px;
+    width: auto;
+  }
+}
+
+@media /*320 and 240 screen 480 screen*/(min-width: 369px) and (max-width: 967px) {
+  * {
+    font-size: xx-small;
+    letter-spacing: normal;
+  }
+  body {
+    height: 80%;
+  }
+  .circle {
+    width: 50px;
+    height: 50px;
+  }
+  .irr {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+  }
+  .straight {
+    width: 50px;
+    height: 50px;
+  }
+
+  .Wrapper {
+    top: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    height: 50vh;
+    padding: 30px 0;
+  }
+
+  h2 {
+    margin: 20%;
+    padding: 5px;
+    font-size: x-small;
+  }
+  .para {
+    margin: 20%;
+    padding: 5px;
+    width: 40vw;
+    font-size: 8px;
+  }
+  #add-map {
+    height: 100vh;
+  }
+  nav {
+    margin-top: -30px;
+    height: 40px;
+  }
+
+  ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+  }
+  a {
+    font-size: small;
+  }
+  #sign-in {
+    padding-top: 10px;
+    width: 100px;
+    display: inline;
+    font-size: small;
+  }
+  .sign {
+    margin-left: 10px;
+  }
+
+  #sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80px;
+    height: 15px;
+    font-size: 10px;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 3px;
+  }
+
+  #close {
+    text-align: center;
+    font-size: xx-small;
+    padding: 0;
+    font-weight: 400;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+  }
+
+  .nest #close {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+
+  .nest /* sign up display*/ {
+    width: 90%;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  /* Sign up screen*/
+  .nest #form {
+    padding: 0 20px;
+  }
+  .nest #form input {
+    margin-top: 16px;
+    width: 250px;
+    height: 25px;
+    font-size: xx-small;
+    padding-left: 10px;
+    border-radius: 5px;
+  }
+  .nest #form p {
+    margin-bottom: 10px;
+  }
+  .nest #form p label {
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+  }
+
+  .nest h5 {
+    margin-bottom: 10px;
+    display: none;
+  }
+  .nest .play {
+    font-size: 8px;
+    width: 200px;
+    padding: 0%;
+    margin-right: 0px;
+    margin-left: -50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .nest .play .sign {
+    color: #41dfff;
+    font-size: 8px;
+  }
+
+  .nest #form .submit {
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  .nest #form .submit:hover {
+    background: #cc1061;
+  }
+  #container {
+    min-height: 100%;
+    width: auto;
+  }
+
+  .glass {
+    padding: 0px 20px;
+    height: 100%;
+    width: 80%;
+    margin-right: 0px;
+    position: relative;
+  }
+
+  .glass #close {
+    text-align: center;
+    font-size: xx-small;
+    padding: 0;
+    font-weight: 400;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+  .glass #form2 {
+    height: 100%;
+    margin-top: 10px;
+  }
+  .glass #form2 input {
+    margin-top: 16px;
+    width: 250px;
+    height: 25px;
+    font-size: x-small;
+    padding-left: 10px;
+    border-radius: 5px;
+  }
+
+  .glass h3 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  label {
+    padding-bottom: 4px;
+    margin-bottom: 15px;
+  }
+
+  .pass {
+    margin-left: 10px;
+  }
+
+  footer {
+    height: 80px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 0px 20px;
+    width: 400%;
+  }
+  .footer {
+    font-size: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    width: 40px;
+    text-align: center;
+    margin-left: 8px;
+    display: inline-block;
+  }
+
+  .foot {
+    /* border: solid; */
+    text-align: center;
+    margin-left: 0px;
+    padding-left: 20px;
+    font-size: 8px;
+    width: auto;
+  }
+}
+
+@media /**/ (min-width: 968px) and (max-width: 1278px) {
+  * {
+    font-size: large;
+    letter-spacing: normal;
+  }
+  body {
+    height: 80%;
+  }
+
+  .circle {
+    width: 50px;
+    height: 50px;
+  }
+  .irr {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+  }
+  .straight {
+    width: 50px;
+    height: 50px;
+  }
+
+  .Wrapper {
+    top: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    height: 50vh;
+    padding: 30px 0;
+  }
+
+  h2 {
+    margin: 20%;
+    padding: 5px;
+    font-size: x-small;
+  }
+  .para {
+    margin: 20%;
+    padding: 5px;
+    width: 40vw;
+    font-size: 8px;
+  }
+  #add-map {
+    height: 100vh;
+  }
+  nav {
+    margin-top: -30px;
+    height: 70px;
+  }
+
+  ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  a {
+    display: inline;
+  }
+
+  #sign-in {
+    padding-top: 16px;
+    width: 120px;
+    display: inline;
+    font-size: 15px;
+  }
+  .sign {
+    margin-left: 10px;
+  }
+
+  #sign-up {
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 15px;
+    padding: 0px 15px;
+    margin-top: 8px;
+    margin-right: 20px;
+  }
+
+  #close {
+    text-align: center;
+    font-size: large;
+    padding: 0;
+    background-color: red;
+    font-weight: 400;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+  }
+  .nest #close {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+  }
+  .nest /* sign up display*/ {
+    height: 100%;
+    width: 90%;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  /* Sign up screen*/
+  .nest #form {
+    padding: 0 20px;
+  }
+  .nest #form input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 35px;
+    padding-left: 10px;
+    border-radius: 5px;
+  }
+  .nest #form p {
+    margin-bottom: 10px;
+  }
+  .nest #form p label {
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+  }
+
+  .nest h5 {
+    margin-bottom: 10px;
+    display: none;
+  }
+  .nest .play {
+    font-size: large;
+    width: 100%;
+    padding: 0%;
+    margin-right: 0px;
+    margin-left: -50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .nest .play .sign {
+    color: #41dfff;
+    font-size: larger;
+  }
+
+  .nest #form .submit {
+    margin-top: 30px;
+    height: 50px;
+    cursor: pointer;
+  }
+  #container {
+    min-height: 100%;
+    width: auto;
+  }
+
+  .glass /* SIG IN PAGE*/ {
+    padding: 30px 20px;
+    height: 100%;
+    width: 80%;
+    margin-right: 0px;
+    position: relative;
+  }
+
+  .glass #close {
+    text-align: center;
+    padding: 0;
+    font-weight: 400;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+  .glass #form2 {
+    height: 100%;
+    margin-top: 10px;
+  }
+  .glass #form2 input {
+    margin-top: 30px;
+    width: 260px;
+    height: 30px;
+    font-size: small;
+    padding-left: 10px;
+    border-radius: 5px;
+  }
+  .glass #form2 .submit2 {
+    height: 40px;
+    cursor: pointer;
+  }
+  .glass h3 {
+    font-size: xx-large;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  label {
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    font-size: large;
+  }
+
+  .pass {
+    margin-left: 10px;
+    font-size: large;
+  }
+
+  footer {
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0px 20px;
+    width: 200%;
+  }
+  .footer {
+    font-size: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    width: 60px;
+    text-align: center;
+    margin-left: 8px;
+    display: inline-block;
+  }
+
+  .foot {
+    /* border: solid; */
+    text-align: center;
+    margin-left: 0px;
+    padding-left: 20px;
+    font-size: 12px;
+    width: auto;
   }
 }
